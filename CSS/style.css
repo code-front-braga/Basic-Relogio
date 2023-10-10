@@ -15,11 +15,6 @@ body
     height: 100vh; */
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
 
 #imagem-plano-de-fundo
 {
