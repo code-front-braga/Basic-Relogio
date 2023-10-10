@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+</head>
+<body onload="relogio()">
+    <section class="main">
+        <div class="informacao">
+            <span>Informação</span>
+        </div>
+        <ul class="relogio" type="none">
+            <li id="horas"></li>
+            <div class="twoDots">:</div>
+            <li id="minutos"></li>
+            <div class="twoDots">:</div>
+            <li id="segundos"></li>
+        </ul>
+    </section>
+    <div id="imagem-plano-de-fundo">
+        <img id="foto" src="" alt="Foto-do-dia">
+    </div>
+    <script src="JS/script.js"></script>
+    <script src="JS/mostrarRelogio.js"></script>
+</body>
+</html>

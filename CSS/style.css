@@ -1,0 +1,93 @@
+/* EDIÇÃO BACKGROUND */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#imagem-plano-de-fundo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity .6s ease-in-out;
+}
+
+#foto
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+}
+
+/* EDIÇÃO RELÓGIO */
+
+.main
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 220px;
+    backdrop-filter: blur(1.5px);
+    box-shadow: 0rem 0rem 2rem #000;
+    border-radius: 1rem;
+}
+
+.relogio
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.relogio li
+{
+    display: flex;
+    text-shadow: 0rem 0rem .3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 120px;
+    box-shadow: 0rem 0rem 2rem #000;
+    border-radius: .5rem;
+    font-size: xxx-large;
+    font-family:monospace;
+}
+
+.twoDots
+{
+    font-size: xxx-large;
+    margin: auto;
+    text-shadow: 0rem 0rem .3rem;
+}
+
+.informacao
+{
+    display: flex;
+    width: 85%;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0rem 0rem .5rem #000;
+    border-radius: .5rem;
+    font-size: large;
+    font-family: monospace;
+}
